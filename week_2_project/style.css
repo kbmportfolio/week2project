@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+nav a{
+    color: white;
+    font-weight: bold;
+}
+.ulstyle {
+    color: black;
+}
+
+.cardstyle {
+    
+    margin-top: 50px;
+}
+
+.cardstyle p {
+    text-align: center;
+    
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+footer {
+    background-color: #080808;
+    height: 60px;
+    
+        padding: 15px;
+        padding-top: 20px;
+        margin-top: 75px;
+    
+}
+
+footer a,p {
+    color: #9d9d9d;
+    
+}
+
+.title  {
+    margin: 100px 0 100px 0 ;
+}
+
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img{
+    height:720px;
+    width: 100%;
+    }
+    @media only screen and (max-width: 960px) {
+    .carousel-inner>.item>img, .carousel-inner>.item>a>img{
+        height:300px;
+        width: 100%;
+        }
+
+        .carousel-caption p{
+            
+            font-size: 10px;
+            
+        }
+        .carousel-caption h1{
+            font-size: 20px;
+        }
+
+    }
+
+    .carousel-caption {
+
+        background-color:rgba(0, 0, 0, 0.3);
+    }
+
+    .carousel-caption p {
+        color: white;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+
+    .btn-primary{
+        background-color: #080808 !important;
+        border-color: black;
+    } 
+
+
+  .card img {
+
+        box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+    }
+
+    .card {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .card-text {
+        font-weight: bold;
+        font-size: 20px;
+        padding: 10px;
+    }
